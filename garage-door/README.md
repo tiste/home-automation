@@ -4,4 +4,4 @@ Honestly... I always wanted to hack my garage door remote, but rotative 433GHz s
 
 **So, hack the pain.**
 
-This project aims to press on the right button, from a ESP8266, driven from a local API... driven from my homeassistant raspberry.
+Here is the article about the project: https://medium.com/@tiste/hack-your-garage-door-for-10-42146830e147

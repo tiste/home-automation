@@ -1,0 +1,7 @@
+switch:
+  - platform: command_line
+    switches:
+      garage:
+        command_on: "/usr/bin/curl -X GET http://NODEMCU_IP/open"
+        command_off: "exit 0"
+        friendly_name: Garage

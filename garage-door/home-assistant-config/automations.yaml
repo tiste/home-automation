@@ -1,0 +1,12 @@
+- alias: 'Turn off garage when opened'
+  hide_entity: true
+  trigger:
+    platform: state
+    entity_id: switch.garage
+    from: 'off'
+    to: 'on'
+    for:
+      seconds: 5
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.garage
